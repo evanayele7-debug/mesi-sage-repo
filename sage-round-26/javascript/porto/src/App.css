@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #160f3f;
+
+  border: 
+};
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  background: #000000;
+  color: white;
+  flex-direction: row-reverse;
+  border: #481818
+  
+};
+
+.hero {
+  padding: 50px;
+  text-align: center;
+  background: #481818;
+  justify-items: center;
+  flex:2;
+  flex-direction: initial;
+  align-items: flex-end;
+
+}
+
+section {
+  padding: 40px;
+};
+
