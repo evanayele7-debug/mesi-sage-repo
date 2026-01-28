@@ -1,14 +1,13 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn node.js",
   "license": "ISC",
-  "author": "",
+  "author": "israel alazar",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node index.js"
   }
 }

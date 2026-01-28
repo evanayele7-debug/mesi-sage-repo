@@ -1,17 +1,10 @@
-const { readFile } = require('fs')
+const fs=require('fs')
 
-const fs = require('fs')
-
-
-// fs.writeFile("output.txt","text from node.js!!",(err)=>{
+// fs.writeFile('output.txt','yello from nodejs',(err)=>{
 //     console.log(err)
 // })
 
-fs.readFile("output.txt","utf8",(err,data)=>{
-    if(err) {
-        console.log(err)
-    } else
-{
-        console.log(data)
-    }
+fs.readFile('output.txt','utf8',(err,data)=>{
+    if(err) console.log(err);
+    console.log(data)
 })
